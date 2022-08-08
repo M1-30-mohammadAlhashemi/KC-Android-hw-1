@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/unnamed"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="cursive"
+        android:text="grade calculator"
+        android:textSize="48sp" />
+
+    <EditText
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        android:id="@+id/editText1"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom1edittext"
+        android:backgroundTint="#E2FFFFFF"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:hint="quizzes 15%"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="15dp"
+        android:textColorHint="#D0000000" />
+
+    <EditText
+        android:id="@+id/homework"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom1edittext"
+        android:backgroundTint="#E2FFFFFF"
+        android:ems="10"
+        android:padding="15dp"
+        android:fontFamily="serif-monospace"
+        android:hint="HomeWork 25%"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#9F000000" />
+
+    <EditText
+        android:id="@+id/midterms"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom1edittext"
+        android:backgroundTint="#E2FFFFFF"
+        android:ems="10"
+        android:padding="15dp"
+        android:fontFamily="serif-monospace"
+        android:hint="MidTerms 30%"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#BE000000" />
+
+    <EditText
+        android:id="@+id/edittext3"
+        style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom1edittext"
+        android:backgroundTint="#E2FFFFFF"
+        android:ems="10"
+        android:padding="15dp"
+        android:fontFamily="serif-monospace"
+        android:hint="Finals 30%"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#DD000000" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom1button"
+        android:backgroundTint="#000000"
+        android:fontFamily="serif-monospace"
+        android:text="calculate"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom1button"
+        android:backgroundTint="#6B787E"
+        android:fontFamily="serif-monospace"
+        android:text="rest"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="cursive"
+        android:text="Result"
+        android:textSize="48sp" />
+
+
+</LinearLayout>
