@@ -40,6 +40,22 @@ public class MainActivity extends AppCompatActivity {
                     total.setTextColor(Color.parseColor("#FFE41E0F"));
                     Toast.makeText(MainActivity.this,"try again",Toast.LENGTH_SHORT).show();
                 }
+                else if (add>90){
+                    total.setText(add+"  A+ ");
+                }
+                else if (add>80){
+                    total.setText(add+"  B+ ");
+                }
+                else if (add>70){
+                    total.setText(add+"  C+ ");
+                }
+                else if (add>60){
+                    total.setText(add+"  D+ ");
+                }
+                else{
+                    total.setText(add+"  F ");
+                    total.setTextColor(Color.parseColor("#FFE41E0F"));
+                }
 
             }
         });
